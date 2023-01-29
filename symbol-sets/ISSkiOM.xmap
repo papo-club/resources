@@ -1369,7 +1369,7 @@ Minimum area: 1 mm x 1 mm (footprint 15 m x 15 m) for openings in screens of oth
 For openings in symbol Open land (401), the minimum area is 0.7 mm x 0.7 mm (footprint 10.5 m x 10.5 m).
 For openings in symbol Vegetation: walk (408), the minimum area is 0.7 mm x 0.7 mm (footprint 10.5 m x 10.5 m).
 For openings in symbol Vegetation: fight (410) the minimum area is 0.55 mm x 0.55 mm (footprint 8 m x 8 m).</description>
-                <area_symbol inner_color="23" min_area="500" patterns="0"/>
+                <area_symbol inner_color="31" min_area="500" patterns="0"/>
             </symbol>
             <symbol type="4" id="46" code="406" name="Vegetation: slow running">
                 <description>An area with dense vegetation (low visibility) which reduces running to about 60-80% of normal speed.
