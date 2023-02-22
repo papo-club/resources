@@ -1241,12 +1241,10 @@ Footprint of individual triangle: 12 m x 6 m.</description>
                     <part symbol="33"/>
                     <part symbol="34"/>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAUUlEQVQ4jWNgYGbexMDA8J+qmJl5EyOUw8AQHM5AFbB2JQMDAwMDC9zQ+SuoYzDUcCbqmYYKRg0eNXjU4FGDRw0eHAZDahBodUIVADeLRpUpAOkUM9bNALKgAAAAAElFTkSuQmCC"/>
             </symbol>
             <symbol type="4" id="33" code="301.3" name="Body of water that shall not be crossed">
                 <description>When a body of water is not covered with ice or shall not be crossed, the colour of the area shall be 100% blue. A black bank line indicates that the feature shall not be crossed.</description>
                 <area_symbol inner_color="16" min_area="1000" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWNk+PSfgTLARKH+USNGjRg1YtSIUSPIAgCt1AIdbYPnGQAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="2" id="34" code="301.4" name="Body of water that shall not be crossed, bank line">
                 <description>A black bank line indicates that the feature shall not be crossed.</description>
@@ -1258,12 +1256,10 @@ Footprint of individual triangle: 12 m x 6 m.</description>
                     <part symbol="37"/>
                     <part symbol="36"/>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAATklEQVQ4jWMU/PL/3Pf/DOoMVATcDAw3GTk+//+6nZOBi5oGe3xj+MFETQORwajBowaPGjxq8KjBowaTBxiFv/w/9+UfgyY1DeVhZLgGAAAKEb4RXJ9FAAAAAElFTkSuQmCC"/>
             </symbol>
             <symbol type="4" id="36" code="302.1" name="Crossable body of water">
                 <description>When a body of water is allowed to be crossed, the colour shall be 50% blue. The bank line of the crossable waterbody is presented in ski orienteering map like in ISOM Shallow body of water (302).</description>
                 <area_symbol inner_color="18" min_area="500" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWPc/+c/A2WAiUL9o0aMGjFqxKgRo0aQBQAyngLmdBowpwAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="2" id="37" code="302.2" name="Crossable body of water, bank line">
                 <description>The bank line of the crossable waterbody is presented in ski orienteering map like in ISOM Shallow body of water (302).</description>

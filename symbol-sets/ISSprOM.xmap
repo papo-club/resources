@@ -1483,7 +1483,6 @@ Minimum area (inside): 0.5 mm² (footprint 8 m²)</description>
                     <part symbol="56"/>
                     <part symbol="55"/>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAUUlEQVQ4jWNgYGbexMDA8J+qmJl5EyOUw8AQHM5AFbB2JQMDAwMDC9zQ+SuoYzDUcCbqmYYKRg0eNXjU4FGDRw0eHAZDahBodUIVADeLRpUpAOkUM9bNALKgAAAAAElFTkSuQmCC"/>
             </symbol>
             <symbol type="16" id="54" code="301.1" name="Uncrossable body of water (dominant)">
                 <description>An area of deep water such as a lake, pond, river or fountain. The dark blue colour and the bordering black line indicate that the feature shall not be crossed.
@@ -1494,7 +1493,6 @@ Minimum area (inside): 0.5 mm² (footprint 8 m²)</description>
                     <part symbol="57"/>
                     <part symbol="55"/>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAVUlEQVQ4jWNgZGbexMDA8J+amJGZeRMjlMOgHRrOQA1wdfVKBgYGBgYWmKEhS1ZQxWCY4UxUMw0NjBo8avCowaMGjxo8OAxmYWBAVCfUAHCzaFWZAgD1WTfZnhO2PAAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="2" id="55" code="301.2" name="Uncrossable body of water, bank line">
                 <description>The bordering black line indicates that the feature shall not be crossed.</description>
@@ -1508,7 +1506,6 @@ Dominant areas of water may be shown with 70% colour.
 Minimum width: 0.3 mm
 Minimum area (inside): 0.5 mm² (footprint 8 m²)</description>
                 <area_symbol inner_color="16" min_area="1000" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWNk+PSfgTLARKH+USNGjRg1YtSIUSPIAgCt1AIdbYPnGQAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="4" id="57" code="301.4" name="Uncrossable body of water (dominant), fill">
                 <description>An area of deep water such as a lake, pond, river or fountain which may constitute a danger to the competitor. The dark blue colour and the bordering black line indicate that the feature cannot be crossed.
@@ -1517,7 +1514,6 @@ Minimum width: 0.3 mm
 Minimum area (inside): 0.5 mm² (footprint 8 m²)
 </description>
                 <area_symbol inner_color="17" min_area="1000" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWOs//mfgTLARKH+USNGjRg1YtSIUSPIAgCxAAKjIU52AgAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="16" id="58" code="302" name="Crossable body of water">
                 <description>An area of shallow water such as a pond, river or fountain that can be crossed. The body of water should be less than 0.5 m deep and runnable.
@@ -1528,7 +1524,6 @@ Minimum area (inside): 0.5 mm² (footprint 8 m²)</description>
                     <part symbol="59"/>
                     <part symbol="60"/>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAATklEQVQ4jWMU/PL/3Pf/DOoMVATcDAw3GTk+//+6nZOBi5oGe3xj+MFETQORwajBowaPGjxq8KjBowaTBxiFv/w/9+UfgyY1DeVhZLgGAAAKEb4RXJ9FAAAAAElFTkSuQmCC"/>
             </symbol>
             <symbol type="2" id="59" code="302.1" name="Crossable body of water, border line">
                 <description>If no other line symbol touches the border of the passable body of water, the border shall be represented with a blue line.</description>
@@ -1540,7 +1535,6 @@ If the body of water is not runnable it shall be represented with the symbol Unc
 Minimum width: 0.3 mm
 Minimum area (inside): 0.5 mm² (footprint 8 m²)</description>
                 <area_symbol inner_color="19" min_area="500" patterns="0"/>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAIAAABL1vtsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWPc/+c/A2WAiUL9o0aMGjFqxKgRo0aQBQAyngLmdBowpwAAAABJRU5ErkJggg=="/>
             </symbol>
             <symbol type="1" id="61" code="303" name="Waterhole">
                 <description>A water-filled pit or an area of water which is too small to be shown to scale.
@@ -2496,7 +2490,6 @@ Minimum length (isolated): two dashes (4 mm - footprint 16 m).</description>
                         </symbol>
                     </part>
                 </combined_symbol>
-<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAIAAACQzIFuAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAg0lEQVRIie3VMQ0AIQxA0ePSgRERKGDEA26QgR2CA8YqqAhGBkJOQTsdA0lZf/oGIKnZez/HznuOVl111a/RobXGNSIaY8jzzjnvPVcNAHAt5xxCkHVELKVwFdZaXIsxppRk3VorCFe/qnDvvfc5pzyPiIJgaq1c++HP6OZTXXXVD+sf95Mr1jqKt3QAAAAASUVORK5CYII="/>
             </symbol>
             <symbol type="2" id="129" code="509.1.3" name="Railway, Area that shall not be entered, minimum width">
                 <line_symbol color="23" line_width="1350" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
