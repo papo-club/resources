@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://openorienteering.org/apps/mapper/xml/v2" version="9">
+    <notes></notes>
+    <georeferencing scale="15000" declination="23.5" grivation="23.5">
+        <projected_crs id="Local">
+            <ref_point x="1487000" y="5199000"/>
+        </projected_crs>
+    </georeferencing>
+    <colors count="48">
+        <color priority="0" name="Black" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="1" name="Logo Text Red" c="0.23" m="0.96" y="1" k="0.17" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.639" g="0.033" b="0"/>
+        </color>
+        <color priority="2" name="Black for rock" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="3" name="Street infill" c="0" m="0.28" y="0.5" k="0.095" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.905" g="0.652" b="0.452"/>
+        </color>
+        <color priority="4" name="Street borderlines" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="5" name="Blue" c="0.87" m="0.18" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.13" g="0.82" b="1"/>
+        </color>
+        <color priority="6" name="Brown" c="0" m="0.56" y="1" k="0.18" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.82" g="0.361" b="0"/>
+        </color>
+        <color priority="7" name="Green" c="0.76" m="0" y="0.91" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.24" g="1" b="0.09"/>
+        </color>
+        <color priority="8" name="Green 60%" c="0.455" m="0" y="0.545" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.545" g="1" b="0.455"/>
+        </color>
+        <color priority="9" name="Green 30%" c="0.23" m="0" y="0.275" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.77" g="1" b="0.725"/>
+        </color>
+        <color priority="10" name="White for yellow" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="11" name="Logo Red" c="0.23" m="0.96" y="1" k="0.17" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.639" g="0.033" b="0"/>
+        </color>
+        <color priority="12" name="Purple for course layout" c="0.35" m="0.85" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.65" g="0.15" b="1"/>
+        </color>
+        <color priority="13" name="White for course layout" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="14" name="Upper purple for course planning" c="0.35" m="0.85" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.65" g="0.15" b="1"/>
+        </color>
+        <color priority="15" name="White for course planning" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="16" name="White - railway" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="17" name="Black" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="18" name="Blue - point symbols" c="1" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="1" b="1"/>
+        </color>
+        <color priority="19" name="Brown - point symbols" c="0" m="0.56" y="1" k="0.18" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.82" g="0.361" b="0"/>
+        </color>
+        <color priority="20" name="Green - point symbols" c="0.76" m="0" y="0.91" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.24" g="1" b="0.09"/>
+        </color>
+        <color priority="21" name="Blue - line symbols" c="1" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="1" b="1"/>
+        </color>
+        <color priority="22" name="Green + 50% black" c="0" m="0" y="0" k="0.5" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.5" g="0.5" b="0.5"/>
+        </color>
+        <color priority="23" name="Brown - line symbols" c="0" m="0.56" y="1" k="0.18" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.82" g="0.361" b="0"/>
+        </color>
+        <color priority="24" name="Lower purple for course planning" c="0.35" m="0.85" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.65" g="0.15" b="1"/>
+        </color>
+        <color priority="25" name="Black - street middleline" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="26" name="Brown 50% - street infill" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="27" name="Black - street sideline" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="28" name="Black 60%" c="0" m="0" y="0" k="0.6" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.4" g="0.4" b="0.4"/>
+        </color>
+        <color priority="29" name="Black 20%" c="0" m="0" y="0" k="0.2" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.8" g="0.8" b="0.8"/>
+        </color>
+        <color priority="30" name="Blue - area symbols" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="31" name="Blue 70%" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="32" name="Blue 50%" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="33" name="White over brown, green and yellow" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="34" name="Brown 50% - paved area" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="35" name="Yellow - narrow ride" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="36" name="Green 60% - narrow ride" c="0.46" m="0" y="0.55" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.54" g="1" b="0.45"/>
+        </color>
+        <color priority="37" name="Green 30% - narrow ride" c="0.24" m="0" y="0.27" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.76" g="1" b="0.73"/>
+        </color>
+        <color priority="38" name="Yellow + green 50%" c="0.38" m="0.27" y="1" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.62" g="0.73" b="0"/>
+        </color>
+        <color priority="39" name="Green - area symbols" c="0.76" m="0" y="0.91" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.24" g="1" b="0.09"/>
+        </color>
+        <color priority="40" name="Green 60%" c="0.46" m="0" y="0.55" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.54" g="1" b="0.45"/>
+        </color>
+        <color priority="41" name="Green 30%" c="0.24" m="0" y="0.27" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.76" g="1" b="0.73"/>
+        </color>
+        <color priority="42" name="Green - undergrowth / over yellow" c="0.76" m="0" y="0.91" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.24" g="1" b="0.09"/>
+        </color>
+        <color priority="43" name="Black 30%" c="0" m="0" y="0" k="0.3" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.7" g="0.7" b="0.7"/>
+        </color>
+        <color priority="44" name="White over yellow" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="45" name="Black - cultivated land and sandy ground" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="46" name="Yellow" c="0" m="0.27" y="0.79" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0.73" b="0.21"/>
+        </color>
+        <color priority="47" name="Yellow 50%" c="0" m="0.14" y="0.4" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="0.86" b="0.6"/>
+        </color>
+    </colors>
+    <barrier version="6" required="0.6.0">
+        <symbols count="56" id="OCD">
+            <symbol type="2" id="0" code="101.0" name="Contour">
+                <line_symbol color="23" line_width="140" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAALklEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgxgMODEMr5zGOlhWjBo8aPAAGAwA5iwoh5B4IXAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="1" code="101.1" name="Slope Line for Contour">
+                <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="23" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="0" y="-467"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAARUlEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgxgMODEMr5zESW1YcdGRkYGBgYLDfT5wHh17kjRoMB0SnClLB0AsKmhkMAJmaERyuok8nAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="2" code="102.0" name="Index Contour">
+                <line_symbol color="23" line_width="253" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAALklEQVQ4jWP8////fwYaACZaGDpq8KjBdDaY8YADw2gGoa3BjKOF0KjBowbjBgCIhwohXMbH+wAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="3" code="103.0" name="Form Line">
+                <line_symbol color="23" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="200" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAANklEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgxgMODARznv1+hJKDjozEGTyapUcNHjV4OBkMAKJtDSF4jyfHAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="4" code="103.1" name="Slope Line for Form Line">
+                <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="23" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="0" y="-447"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAASElEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgxgMODHhznv1+iPRBR0YUNkHwn0hwwIFopf//////f+iF8dAzmHG0PB41GAMAAHiNZcrcw3yVAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="5" code="104.0" name="Earth Bank">
+                <line_symbol color="23" line_width="180" minimum_length="0" join_style="2" cap_style="3" pointed_cap_length="0" start_offset="0" end_offset="0" segment_length="500" end_length="253" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="23" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="0" y="493"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAQElEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYBcY46MhIsWH2+5Hy2n80cMCBgWw2Mhh6YUwzgxlHS7dRg4eBwQDHaVjaSgn26wAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="6" code="107.0" name="Erosion Gully">
+                <line_symbol color="23" line_width="253" minimum_length="0" join_style="2" cap_style="3" pointed_cap_length="747" start_offset="747" end_offset="747" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAbElEQVQ4jc3V0QmAMAyE4Yu4lzi5OFn6JBQFc9EeTQb4+Btoa+7uEMyiQOvA524aODNpmK2uUyyFmXXUKh4K98ffjvgVmF8sgTNXOQX3w+yXgr/UhvAdZWtf4T8oAKwRmgWveRSPQAHAVJ9pA4TIHjHUM5j8AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="7" code="108.0" name="Small Erosion Gully">
+                <line_symbol color="-1" line_width="0" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="453" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="127" inner_color="23" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAR0lEQVQ4jWP8////fwYaACZaGDpq8Eg0+KAjI8NBR0acfLINJgYwDngGweZdqhhMKkAJCpiL7Pf/x8onBQzjyBs1eNRgygEAWwEcK/0psM4AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="8" code="109.0" name="Small Knoll">
+                <point_symbol inner_radius="250" inner_color="19" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAT0lEQVQ4jWP8////fwYaACZaGDpqMH0MZiGk4KAjI4aY/X7CCQmvi7EZik+cKIMJaSYkP/QibxgZTChJEZLH62JcmolJx4yjxeaowfQzGADnXRclNaSSWAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="9" code="111.0" name="Small Depression">
+                <point_symbol inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="19" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="13">
+                                <coord x="-313" y="-200" flags="1"/>
+                                <coord x="-313" y="-160"/>
+                                <coord x="-313" y="-160"/>
+                                <coord x="-313" y="-120" flags="1"/>
+                                <coord x="-313" y="-20"/>
+                                <coord x="-200" y="133"/>
+                                <coord x="0" y="133" flags="1"/>
+                                <coord x="207" y="133"/>
+                                <coord x="320" y="-20"/>
+                                <coord x="320" y="-120" flags="1"/>
+                                <coord x="320" y="-180"/>
+                                <coord x="320" y="-160"/>
+                                <coord x="320" y="-200"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYBZvgQUdGONt+P/b8Q0jN0AsKrAYjew3Zy9jEcAUV1jDGZxCxAGdQ4HIJsWoYiSk20V1MjKVEGUwOGCbJbWQaDAAP4SAf1JIQIAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="10" code="112.0" name="Pit">
+                <point_symbol inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="4" code="">
+                            <area_symbol inner_color="19" min_area="0" patterns="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="7">
+                                <coord x="0" y="493"/>
+                                <coord x="347" y="-307" flags="32"/>
+                                <coord x="167" y="-307" flags="32"/>
+                                <coord x="0" y="133" flags="32"/>
+                                <coord x="-173" y="-307" flags="32"/>
+                                <coord x="-353" y="-307"/>
+                                <coord x="0" y="493" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZElEQVQ4jWP8////fwYaACZaGDpq8BA3mAWXxEFHRjjbfj9miiQkj9PF2BSToo6ooEB2HTY+yQYTcjU+eaIjD+ZKYlxLlMG4XEXINyQlN2JdS7TB6K4jJsXQLIMwjpbHowZjAACuRSMcDLFeRQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="11" code="201.1" name="Impassable Cliff">
+                <line_symbol color="17" line_width="347" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="500" end_length="60" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="17" line_width="120" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="0" y="580"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVQ4je2USQoAIAwDjfj/L8eT4lJx7UFoT4WaIdQSkKRTKK8BNbCBF8EAjkCtzkvDXbikU1tFmLk4rcrxbWyU+meraE11n0cyP9rph1eRoDeOxat4EcslAxb0/4Ijqjg7E6uYy8sAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="12" code="201.2" name="Impassable Cliff Without Tags">
+                <line_symbol color="17" line_width="347" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAATUlEQVQ4jWP8////fwYaACZaGDpq8KjBRBrMyMhIlkHo+piwSZJqODZ9NAsKFkKuIBeguJjSYgNZP9WCAt1RGEFBrcJuGGSQUYOHjsEA1m8QNUZxVRYAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="13" code="202.0" name="Cliff">
+                <line_symbol color="17" line_width="253" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="500" end_length="60" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="17" line_width="120" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="0" y="533"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAQElEQVQ4jWP8////fwYaACZaGDpq8KjBowYPlMEs2AQZGRlJMgRbcUPfoIC54P///0SxiTaYGoBxtDweNRgDAABuXSMN8zywIQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="14" code="202.1" name="Cliff Without Tags">
+                <line_symbol color="17" line_width="253" minimum_length="0" join_style="2" cap_style="1" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQ4jWP8////fwYaACZaGDpq8KjBowYPlMEs2AQZGRlJMgRbcUNfF1OjwBt6kTdq8BA2GADZKgopRC4W1AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="15" code="204.0" name="Boulder">
+                <point_symbol rotatable="true" inner_radius="200" inner_color="17" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAU0lEQVQ4jWP8////fwYaACZaGDpq8BA3mIUYRYyMjHA2samToIuRDcXGJ8tgXIYQY/jQizy8BuOKKGIikKCL0Q0hNlUQldzIKQCHWeSNGjy4DQYA3J0WKaDv+wsAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="16" code="204.1" name="Medium Boulder">
+                <point_symbol rotatable="true" inner_radius="250" inner_color="17" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVQ4jWP8////fwYaACZaGDpqMH0MZiGkgJGREUOMmISE18XYDMUnTpTBhDQTkh96kTeMDCaUpAjJ43UxLs3EpGOCGYTcUnUYRd6owVQDALnQFilu6cPRAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="17" code="205.0" name="Large Boulder">
+                <point_symbol rotatable="true" inner_radius="300" inner_color="17" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAbElEQVQ4jWP8////fwYaACZaGDo0DWYhRhEjIyOcTWyU4DUY2UB0MUIW4AwKbIaSIo/VYEKaiFFHv1RBrGsJqR966RjDYFKLDlzq6RsUxLoanzqcLiZkOCF5vFkappnqZQWphiGDYZCOB73BAD3KJS3DZiMWAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="18" code="207.0" name="Boulder Cluster">
+                <point_symbol inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="4" code="">
+                            <area_symbol inner_color="17" min_area="0" patterns="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="4">
+                                <coord x="0" y="-440"/>
+                                <coord x="400" y="260"/>
+                                <coord x="-400" y="260"/>
+                                <coord x="0" y="-440" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVQ4jWP8////fwYaACZaGDpqMHkGMzIyUt9gmKGkGD5wQYHuSmJdPTAuxuU6YlxNfxcTchUhefq6mNiYx6eOBZsgNUrSgS8rRg0efAYDALPiB0hzoIBGAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="1" id="19" code="210.1" name="Stony Ground Single Dot">
+                <point_symbol inner_radius="100" inner_color="17" outer_width="0" outer_color="-1" elements="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQ4jWP8////fwYaACZaGDpq8KjBI85gRkZGBkZGRuobTCpgIVYhqUXKwIfxqMGjBg9igwEmxwctYSqnKAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="20" code="214.0" name="Bare Rock">
+                <area_symbol inner_color="43" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAcklEQVQ4je3UUQrAIAgGYBu7l2f3ZPY2gvxNHcGC9VSEH5JmU1WlDevagZ4J396liDx7Zk7BMOMRtc4lGCEZfIJXwVG8VLwIXu6KFf6q3Tx8grNthXAz4yxuLfhBRjzbw0RfnhXo2UIwCvZq0f5Bfy7cAQglKHZfqhjmAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="21" code="301.2" name="Uncrossable Body of Water (Border Line)">
+                <line_symbol color="17" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAgElEQVQ4je2UzQ4AEQyEd2Tf/5W7J1LVP8JBsnM1/VQNICJ6DqicgP7gTm9kAGCuefdugj2g9GgbqGAO9bqqPgCDDzLHXhfRBrymRIaMqp+ftIFXoRb8vhw3sDanGclRdh2vwrX7GeImwZkcaz4VLIsipV8eN2//KzLFni7O8W59zcVMIzKIBtEAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="16" id="22" code="301.4" name="Dominant Uncrossable Body of Water 70%  (Area &amp; Border Line)">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="4" code="301.4" name="Dominant Uncrossable Body of Water 70%  (Area &amp; Border Line)">
+                            <area_symbol inner_color="31" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAi0lEQVQ4je2VSw7AIAhEpenBPLo3wxUGqYOf1oVJZ+vkiTBBYmYOG3TtgP7gSrd3SERdAJo9rHgE6vmaFWtzTDiNKVLx28rJ5ligHhBdoFFVK1ag2q9fWsCrUAQ/L8cFLI2XQczKDrCqeBXeSsUjbiHM59hCIdjCe2oh4PBG9z/yuUvozedycI6/Vgb24kkfHpGY/gAAAABJRU5ErkJggg=="/>
+                        </symbol>
+                    </part>
+                    <part symbol="21"/>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAi0lEQVQ4je2VSw7AIAhEpenBPLo3wxUGqYOf1oVJZ+vkiTBBYmYOG3TtgP7gSrd3SERdAJo9rHgE6vmaFWtzTDiNKVLx28rJ5ligHhBdoFFVK1ag2q9fWsCrUAQ/L8cFLI2XQczKDrCqeBXeSsUjbiHM59hCIdjCe2oh4PBG9z/yuUvozedycI6/Vgb24kkfHpGY/gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="16" id="23" code="302.0" name="Shallow Body of Water (Area &amp; Border Line)">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="4" code="302.0" name="Shallow Body of Water (Area &amp; Border Line)">
+                            <area_symbol inner_color="32" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfklEQVQ4je3TSwrAIAwE0EzpwTyaR+vNpqtA/SQGqQWh2RpfREeQpCyoYwX6w9/A56gBsNe8PJmwgvkaD+0N6MKAD2ppD9DizR1H0XpAfWUFPINa+H5xK2BSJKc5KKfyAZsTz+A1KmLEjYzlWA8QzvGz+fWfF9ns1eZx2wK+AQLoKfKDd05YAAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                    <part symbol="24"/>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfklEQVQ4je3TSwrAIAwE0EzpwTyaR+vNpqtA/SQGqQWh2RpfREeQpCyoYwX6w9/A56gBsNe8PJmwgvkaD+0N6MKAD2ppD9DizR1H0XpAfWUFPINa+H5xK2BSJKc5KKfyAZsTz+A1KmLEjYzlWA8QzvGz+fWfF9ns1eZx2wK+AQLoKfKDd05YAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="24" code="302.4" name="Shallow Body of Water (Border Line)">
+                <line_symbol color="30" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVQ4je2UUQ7AIAhDV+P9r8y+SBxCZxyamKy/lCfBKkRErgUqK6A/eA+4vhmAuMbyFIIVyJqZxwUDHKhSj+fvdjwKtQfYlT3AM9BIaamwUxdW/KK0ie0aO/DM1N7duHFr4ak5bs3pL2+kmem83+088A34rSwsd6MBAQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="25" code="305.0" name="Small Crossable Watercourse">
+                <line_symbol color="21" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAT0lEQVQ4jWP8////fwYaACZSFDM2QjDVDSYFDLzBsCD4X09lg0kFw9RgUsOXaIPJAaMGDxKDYamB2AKIaIPJAcPYYFLDeeBdTCpgpFVlCgDxGxEnmp4TdAAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="26" code="306.0" name="Minor/Seasonal Water Channel">
+                <line_symbol color="21" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1253" break_length="253" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAP0lEQVQ4jWP8////fwYaACZaGDo4DGZshGCqG0wqGHoGMw7P5EZqiiDaYHLA0DN4mKYKBobRsoICMIxTBakAAKaMEyVb9FIxAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="27" code="308.0" name="Marsh (Area)">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="0" line_spacing="300" line_offset="0" offset_along_line="0" color="30" line_width="100"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAATUlEQVQ4jWP8////fwYaACZaGDpqMH0MZiFGEWMjdvH/9Xj00Cq54XQxLldiA9hcTj8Xk+JSdIDs8lEXw8EwSBXYwKDKeUOvdBt6BgMARmMoFggvxNQAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="28" code="310.0" name="Indistinct Marsh">
+                <area_symbol inner_color="-1" min_area="0" patterns="2">
+                    <pattern type="2" angle="0" line_spacing="600" line_offset="0" offset_along_line="0" point_distance="1147">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="30" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="-453" y="0"/>
+                                            <coord x="447" y="0"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </pattern>
+                    <pattern type="2" angle="0" line_spacing="600" line_offset="300" offset_along_line="573" point_distance="1147">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="30" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="-453" y="0"/>
+                                            <coord x="447" y="0"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVQ4jWP8////fwYaACZaGDpqMH0MZiGkgLERwf5fj8nHqY9WyQ2niwm5lJDL6ediUl2Ky+X0dTE5LoXxYa6mb6pAtp1Ul8LNGLBiE+YixkYERhbHqW+0oB+6BgMAwHRCnqo1TMYAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="29" code="311.0" name="Well, Fountain or Water Tank">
+                <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="5">
+                                <coord x="-313" y="-307"/>
+                                <coord x="307" y="-307"/>
+                                <coord x="307" y="313"/>
+                                <coord x="-313" y="313"/>
+                                <coord x="-313" y="-307" flags="2"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAARklEQVQ4jWP8////fwYaACZaGDpqMH0MZsElwdhInAH/67GL09/FMIDLRYR8NPQib9RgOCCYKohNz+iAZi5mHC2PRw3GAAD3VQyrAvj3iQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="30" code="313.0" name="Prominent Water Feature">
+                <point_symbol inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="5">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="160" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="427" y="-127"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="160" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="280" y="400"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="160" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="-280" y="400"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="160" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="-433" y="-127"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="18" line_width="160" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="0" y="0"/>
+                                <coord x="0" y="-447"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeklEQVQ4je2VwQ6AMAhDxfjfxi9nBy8LQlsTOWgk2WUZb6yFzNzdl4ZYO6AfB9txrsfBd+N94C1uzDr6jpPR2Qs4S4xJiolWTZ7aAdWrSjC7gMlEzcsADCqBs4oVmSA4uj5XyuAluGolFZ6CWS8rcCgFMokOz/+DtIMHM3wun8oGxM8AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="31" code="401.0" name="Open Land">
+                <area_symbol inner_color="46" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVQ4jWP8f4DhPwMNABMtDB01eNTgUYNHDR41eNTgkWQwAKPeAuokxyVlAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="32" code="402.1" name="Open Land With Scattered Trees 50% Green">
+                <area_symbol inner_color="46" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="700" line_offset="0" offset_along_line="0" point_distance="700">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="200" inner_color="40" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAT0lEQVQ4jWP8f4DhPwMNACPDf4TB/w/iUGSPyidGHRM+AygRY8JUQh0wxA3GFinkijHSKrmxoAuQk7SwqRtNbnQ2eEgkt9HSbbgYPCSSGwByKzMdXeMyigAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="33" code="403.0" name="Rough Open Land">
+                <area_symbol inner_color="47" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVQ4jWP8/5/hPwMNABMtDB01eNTgUYNHDR41eNTgkWQwAIVYAykEbTYZAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="34" code="404.0" name="Rough Open Land With Scattered Trees">
+                <area_symbol inner_color="47" min_area="0" patterns="1">
+                    <pattern type="2" angle="0.785398" line_spacing="800" line_offset="0" offset_along_line="0" point_distance="800">
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="250" inner_color="44" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </pattern>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQ4je2UwQoAIAhDM/r/X163iFpFZYHgbo6xgz4UAAhFErjQzOtcnBece5EkVGS+mB3lzBOAXuJaz1aRemufWZZzjr8X63FMqBhRsJd7yXGNif9jw8V6HGfs6RorBwuy4AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="35" code="406.0" name="Vegetation, Slow Running">
+                <area_symbol inner_color="41" min_area="0" patterns="0"/>
+            </symbol>
+            <symbol type="4" id="36" code="406.1" name="Vegetation, Slow Running, One Direction">
+                <area_symbol inner_color="41" min_area="0" patterns="1">
+                    <pattern type="1" angle="1.5708" rotatable="true" line_spacing="1500" line_offset="0" offset_along_line="0" color="33" line_width="400"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfUlEQVQ4jbXTOQ4AIQxD0Q8X4+pwskyHhMIygEkZWU9uHLJlY3GJ5H6FMs3FF+gSPkULZQzfoDBofIt2YQXqYBXawEq0wmo0kQhm5gZyi9bGatTBKrSB/6Cj6+XiDrqTiy/Q2liNOliFNrASrbAaBc6XN0PhcHkr1MEqFOADWVxhIsL68bIAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="37" code="407.0" name="Vegetation, Slow Running, Good Visibility">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="1.5708" line_spacing="840" line_offset="0" offset_along_line="0" color="42" line_width="120"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKklEQVQ4jWP4////f4YDDP/RAaViTAw0AqMGjxo8avCowaMGjxo8UgwGAGYMTKIups14AAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="38" code="408.0" name="Vegetation, Walk">
+                <area_symbol inner_color="40" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVQ4jWNk+M/wn4EGgIkWho4aPGrwqMGjBo8aPGrwSDIYAOeFAirTqp6qAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="39" code="409.0" name="Vegetation, Walk, Good Visibility">
+                <area_symbol inner_color="-1" min_area="0" patterns="1">
+                    <pattern type="1" angle="1.5708" line_spacing="420" line_offset="0" offset_along_line="0" color="42" line_width="140"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKklEQVQ4jWP4////f4YDDP+RATX4TAw0AqMGjxo8avCowaMGjxo8UgwGAK11SmWBKLUaAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="40" code="410.0" name="Vegetation, Fight">
+                <area_symbol inner_color="39" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVQ4jWNkOMDwn4EGgIkWho4aPGrwqMGjBo8aPGrwSDIYAAYaAetMTvaMAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="2" id="41" code="416.0" name="Distinct Vegetation Boundary">
+                <line_symbol color="-1" line_width="0" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="453" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="110" inner_color="17" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAR0lEQVQ4je2QMQ4AIBDCwPj/L5+TztTodp1JQ+qqKgXYliSFc41odcFMh+nTzbfHsdj26fxUTOnGXEzpxlxM6cZcTOnGXExZ8NEWQYMZC+EAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="1" id="42" code="417.0" name="Prominent Large Tree">
+                <point_symbol rotatable="true" inner_radius="267" inner_color="-1" outer_width="180" outer_color="20" elements="1">
+                    <element>
+                        <symbol type="1" code="">
+                            <point_symbol inner_radius="550" inner_color="33" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                        <object type="0">
+                            <coords count="1">
+                                <coord x="0" y="0"/>
+                            </coords>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZElEQVQ4jWP8////fwYaACZaGDpqMH0MZiFGEeNBRhT+f3vCCYkRX3JDNxAd4LOAKBejG0DIQgYGPGEM04zNVTAxfBYMvVRBf4PxhSO+8IcBstIxUXqIKTapnkEoAcMoVYw8gwGq+SjiEVSv1gAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="43" code="419.0" name="Prominent Vegetation Feature">
+                <point_symbol inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="20" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-393" y="393"/>
+                                <coord x="387" y="-387"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="20" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-393" y="-387"/>
+                                <coord x="387" y="393"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="33" line_width="360" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-460" y="460"/>
+                                <coord x="460" y="-460"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="33" line_width="360" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="460" y="460"/>
+                                <coord x="-460" y="-460"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVQ4je3U0QqAIAwF0K0f69fry25P4Sh3twaCVHsSpkfhqgoAMqCWEegPTwDrrqUehc+FPYD1Qhhru94WsGM757Z59EC8UzFUJBFeD4jQFFytEGbhleFrUF6gj2Av/TQOUrL5bdYDgPC6Vetln9C34ANmK37cNgiJdQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="16" id="44" code="502.1" name="Wide Road &gt;7m">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="2" code="502.1" name="Wide Road &gt;7m - main line">
+                            <line_symbol color="34" line_width="640" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQ4jWP8////fwYaACZaGDpqMApgZGBgGFqRx/L/QANNDB56kTdqMO0NHooZhDbF8RCMvFGD4QAAsUELZB28/c8AAAAASUVORK5CYII="/>
+                        </symbol>
+                    </part>
+                    <part private="true">
+                        <symbol type="2" code="502.1" name="Wide Road &gt;7m - double line">
+                            <line_symbol color="26" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                                <borders>
+                                    <border color="27" width="140" shift="70"/>
+                                </borders>
+                            </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQ4jWP8////fwYaACZaGDpqMApgZGBgGFqRx/L/QANNDB56kTdqMO0NHooZhDbF8RCMvFGD4QAAsUELZB28/c8AAAAASUVORK5CYII="/>
+                        </symbol>
+                    </part>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQ4jWP8////fwYaACZaGDpqMApgZGBgGFqRx/L/QANNDB56kTdqMO0NHooZhDbF8RCMvFGD4QAAsUELZB28/c8AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="45" code="504.0" name="Vehicle Track">
+                <line_symbol color="17" line_width="347" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="3000" break_length="253" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQ4jWP8////fwYaACZaGDpq8KjBdDaYkYGBgWAGQc5DjIyMRBk8BINitKwYNXjU4AEwGACEfAwhFZ2LMQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="46" code="506.0" name="Small Foothpath">
+                <line_symbol color="17" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1000" break_length="253" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVQ4jWP8////fwYaACZaGDpq8KjBw8VgFgYGBgZGRka4ACwjIouRKv7//3/auZhxtKwYNXjU4AEwGACOaBQlT1xvawAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="47" code="507.0" name="Less Distinct Small Footpath">
+                <line_symbol color="17" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="1000" break_length="800" dashes_in_group="2" in_group_break_length="253" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPklEQVQ4je3UMQoAMAhD0Z/e/87p5FKhmxRKXA0PlyjbZmDWBBo48C+wAANUASW10FnOW6Z2cxfnVwQO/ADeLksSIR5eZp4AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="48" code="516.0" name="Fence">
+                <line_symbol color="17" line_width="140" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2000" end_length="1000" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="17" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="240" y="413"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAATUlEQVQ4je3TMQ4AIAwCQDD+/8u4uUobO2jaB9xQgJKEghsVaMMN/wITQMnyprtokois336FJJC8D0fxcHgunmqFg6frdgryvYE0vG8BZyMaIr516ZwAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="49" code="518.0" name="Impassable Fence">
+                <line_symbol color="17" line_width="253" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="2500" end_length="1253" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="2" mid_symbol_distance="600" mid_symbol_placement="2">
+                    <mid_symbol>
+                        <symbol type="1" code="">
+                            <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
+                                <element>
+                                    <symbol type="2" code="">
+                                        <line_symbol color="17" line_width="140" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                                    </symbol>
+                                    <object type="1">
+                                        <coords count="2">
+                                            <coord x="0" y="0"/>
+                                            <coord x="260" y="453"/>
+                                        </coords>
+                                        <pattern rotation="0">
+                                            <coord x="0" y="0"/>
+                                        </pattern>
+                                    </object>
+                                </element>
+                            </point_symbol>
+                        </symbol>
+                    </mid_symbol>
+                </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAATElEQVQ4je2UOQ7AIBADxyj//7KpqAgiWUTnaS2NVnvJtrlAuyGNOOJ3BGSPAXhWFy2JSjZYVmwbSb+zrfhUvu1xVf5peBW58o8jnugwmyog+5E0rQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="1" id="50" code="519.0" name="Crossing Point">
+                <point_symbol rotatable="true" inner_radius="667" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="17" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="300" y="500"/>
+                                <coord x="300" y="-500"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="17" line_width="180" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="2667" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-300" y="500"/>
+                                <coord x="-300" y="-500"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                </point_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAARElEQVQ4je2UMQ4AMAgCe43//7J9Aa0d2GA1HMYE6e5eBm0HNOCAP8HAAqTxNbdtXLfUiZS/VKOngcpvOwV5QgEHrHUACTYONvBjoe8AAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="4" id="51" code="521.0" name="Building">
+                <area_symbol inner_color="17" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQ4jWP8////fwYaACZaGDpqMH0MZkEXYGRkJMsg9MQ19IJi1OBRg+loMEbOo1bxPPSCYtRgOAAACl8KKXVlOGoAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="2" id="52" code="601.0" name="Magnetic North Line Black">
+                <line_symbol color="17" line_width="100" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKklEQVQ4je3MsREAAAjCQHD/nXEFrE3q3DtJVGZb7T4teg0YGBgYGPgLvH6DBygwZ7lPAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="4" id="53" code="709.0" name="Out-of-Bounds Area">
+                <area_symbol inner_color="-1" min_area="0" patterns="2">
+                    <pattern type="1" angle="5.49779" line_spacing="800" line_offset="0" offset_along_line="0" color="24" line_width="253"/>
+                    <pattern type="1" angle="0.785398" line_spacing="800" line_offset="0" offset_along_line="0" color="24" line_width="253"/>
+                </area_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVQ4jWM4wPAfK6BUnAGbIIxPiTgDPklKxBmwCaIDcsRp62KahPFoqhhNFRjio6liNFVgio+mCtqnCgBaAOdPPK+J4QAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="8" id="54" code="901.1" name="Text 12 pt Bold Black">
+                <text_symbol icon_text="">
+                    <font family="Segoe UI" size="2822" bold="true"/>
+                    <text color="0" line_spacing="1.01891" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAbklEQVQ4je2VwQrAIAxDzfD/fzk7VaZ2I8V5EJqTaH3FtkGQZNmgawc0wZ2qLQDIl5R+N7AXDECCeDqvxgleA4+jCWDaC4M9KMlCsjsLg9W5Xq6xJRrN9EvzPId+gpVnv9m+OrFhPZvWSpNfk+kG9AIsKTICdAAAAAAASUVORK5CYII="/>
+            </symbol>
+            <symbol type="8" id="55" code="902.1" name="Text 7 pt - Black">
+                <text_symbol icon_text="">
+                    <font family="Segoe UI" size="1646"/>
+                    <text color="0" line_spacing="1.01891" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYklEQVQ4je2VywrAIAwEO6X//8vrKaWCj1QJreCcPOggaxaRpCOAM0K6xRmXLQD3Ic973+LSZsAlKbFexls8LwaaIzoktjGUVJXHN+8Nz5vWCvRNFDN/QFgUQ+KW0PhfQXokGy4rKVkBIcUAAAAASUVORK5CYII="/>
+            </symbol>
+        </symbols>
+        <parts count="1" current="0">
+            <part name="default part">
+                <objects count="91">
+                    <object type="1" symbol="46">
+                        <coords count="7">
+                            <coord x="-191860" y="-42153" flags="1"/>
+                            <coord x="-191020" y="-42440"/>
+                            <coord x="-189813" y="-43713"/>
+                            <coord x="-189040" y="-43320" flags="1"/>
+                            <coord x="-188493" y="-43033"/>
+                            <coord x="-187953" y="-43380"/>
+                            <coord x="-187613" y="-44000"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="16">
+                        <coords count="1">
+                            <coord x="-189813" y="-31433"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-190673" y="-29633"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="3">
+                        <coords count="13">
+                            <coord x="-191333" y="-23400" flags="1"/>
+                            <coord x="-190840" y="-23693"/>
+                            <coord x="-190627" y="-24053"/>
+                            <coord x="-190060" y="-24053" flags="1"/>
+                            <coord x="-189600" y="-24053"/>
+                            <coord x="-189193" y="-24353"/>
+                            <coord x="-188933" y="-23953" flags="1"/>
+                            <coord x="-188753" y="-23693"/>
+                            <coord x="-188487" y="-23147"/>
+                            <coord x="-188793" y="-23147" flags="1"/>
+                            <coord x="-189093" y="-23147"/>
+                            <coord x="-189413" y="-23393"/>
+                            <coord x="-189540" y="-23100"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="13">
+                            <coord x="-191553" y="-20113" flags="1"/>
+                            <coord x="-191667" y="-19827"/>
+                            <coord x="-191467" y="-19460"/>
+                            <coord x="-191107" y="-19300" flags="1"/>
+                            <coord x="-190727" y="-19120"/>
+                            <coord x="-190353" y="-19220"/>
+                            <coord x="-190233" y="-19513" flags="33"/>
+                            <coord x="-190120" y="-19800"/>
+                            <coord x="-190320" y="-20160"/>
+                            <coord x="-190680" y="-20327" flags="1"/>
+                            <coord x="-191060" y="-20507"/>
+                            <coord x="-191433" y="-20407"/>
+                            <coord x="-191553" y="-20113" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="25">
+                        <coords count="10">
+                            <coord x="-192000" y="-12827" flags="1"/>
+                            <coord x="-191927" y="-12340"/>
+                            <coord x="-191833" y="-11633"/>
+                            <coord x="-191513" y="-11580" flags="1"/>
+                            <coord x="-190967" y="-11527"/>
+                            <coord x="-191200" y="-12927"/>
+                            <coord x="-190693" y="-12840" flags="1"/>
+                            <coord x="-190300" y="-12753"/>
+                            <coord x="-190500" y="-11633"/>
+                            <coord x="-190127" y="-11533"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="27">
+                        <coords count="13">
+                            <coord x="-192600" y="-9733" flags="1"/>
+                            <coord x="-192600" y="-9320"/>
+                            <coord x="-192507" y="-9033"/>
+                            <coord x="-191613" y="-9020" flags="1"/>
+                            <coord x="-190713" y="-9007"/>
+                            <coord x="-190273" y="-9167"/>
+                            <coord x="-190273" y="-9580" flags="33"/>
+                            <coord x="-190273" y="-10000"/>
+                            <coord x="-190340" y="-10540"/>
+                            <coord x="-191467" y="-10567" flags="1"/>
+                            <coord x="-192367" y="-10587"/>
+                            <coord x="-192600" y="-10153"/>
+                            <coord x="-192600" y="-9733" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="13">
+                            <coord x="-192367" y="-18120" flags="1"/>
+                            <coord x="-192413" y="-17967"/>
+                            <coord x="-192207" y="-17740"/>
+                            <coord x="-191900" y="-17627" flags="1"/>
+                            <coord x="-191580" y="-17513"/>
+                            <coord x="-191287" y="-17560"/>
+                            <coord x="-191240" y="-17713" flags="33"/>
+                            <coord x="-191193" y="-17867"/>
+                            <coord x="-191407" y="-18093"/>
+                            <coord x="-191707" y="-18207" flags="1"/>
+                            <coord x="-192027" y="-18320"/>
+                            <coord x="-192320" y="-18267"/>
+                            <coord x="-192367" y="-18120" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="45">
+                        <coords count="10">
+                            <coord x="-192167" y="-42887" flags="1"/>
+                            <coord x="-191720" y="-43107"/>
+                            <coord x="-191553" y="-43760"/>
+                            <coord x="-191093" y="-43660" flags="1"/>
+                            <coord x="-190427" y="-43507"/>
+                            <coord x="-190300" y="-43753"/>
+                            <coord x="-189640" y="-44053" flags="1"/>
+                            <coord x="-189293" y="-44213"/>
+                            <coord x="-188907" y="-44360"/>
+                            <coord x="-188560" y="-44220"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="22">
+                            <coord x="-192087" y="-26293" flags="1"/>
+                            <coord x="-191960" y="-26100"/>
+                            <coord x="-191820" y="-26067"/>
+                            <coord x="-191620" y="-25967" flags="1"/>
+                            <coord x="-191233" y="-25773"/>
+                            <coord x="-191007" y="-25787"/>
+                            <coord x="-190587" y="-25740" flags="1"/>
+                            <coord x="-190340" y="-25713"/>
+                            <coord x="-190187" y="-25560"/>
+                            <coord x="-189973" y="-25687" flags="1"/>
+                            <coord x="-189700" y="-25853"/>
+                            <coord x="-189233" y="-26253"/>
+                            <coord x="-189220" y="-25920" flags="1"/>
+                            <coord x="-189207" y="-25613"/>
+                            <coord x="-189053" y="-25233"/>
+                            <coord x="-189340" y="-25160" flags="1"/>
+                            <coord x="-189713" y="-25067"/>
+                            <coord x="-189940" y="-24887"/>
+                            <coord x="-190300" y="-25040" flags="1"/>
+                            <coord x="-190820" y="-25260"/>
+                            <coord x="-191253" y="-25280"/>
+                            <coord x="-191693" y="-24920"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="2">
+                        <coords count="22">
+                            <coord x="-191220" y="-26467" flags="1"/>
+                            <coord x="-190740" y="-26300"/>
+                            <coord x="-190493" y="-26020"/>
+                            <coord x="-190000" y="-26120" flags="1"/>
+                            <coord x="-189560" y="-26200"/>
+                            <coord x="-189233" y="-26580"/>
+                            <coord x="-188893" y="-26267" flags="1"/>
+                            <coord x="-188680" y="-26080"/>
+                            <coord x="-188620" y="-25927"/>
+                            <coord x="-188373" y="-25787" flags="1"/>
+                            <coord x="-188187" y="-25673"/>
+                            <coord x="-187787" y="-25640"/>
+                            <coord x="-187927" y="-25460" flags="1"/>
+                            <coord x="-188053" y="-25293"/>
+                            <coord x="-188140" y="-25213"/>
+                            <coord x="-188327" y="-25160" flags="1"/>
+                            <coord x="-188653" y="-25073"/>
+                            <coord x="-188853" y="-25133"/>
+                            <coord x="-189153" y="-24967" flags="1"/>
+                            <coord x="-189360" y="-24840"/>
+                            <coord x="-189447" y="-24700"/>
+                            <coord x="-189693" y="-24640"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="17">
+                        <coords count="1">
+                            <coord x="-191380" y="-31453"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="8">
+                        <coords count="1">
+                            <coord x="-190213" y="-17740"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="29">
+                        <coords count="1">
+                            <coord x="-191187" y="-13760"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="9">
+                        <coords count="1">
+                            <coord x="-188887" y="-19667"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-191267" y="-27933"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-190307" y="-27907"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-190660" y="-27727"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-191433" y="-27580"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-192353" y="-27840"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-192313" y="-27107"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-191073" y="-27107"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-192120" y="-27467"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-190740" y="-27427"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-189980" y="-27253"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-187993" y="-28233"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-188407" y="-27373"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-189700" y="-27427"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-188973" y="-27193"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-189013" y="-27467"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-189500" y="-27880"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-188807" y="-27907"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-188387" y="-27740"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-189213" y="-28227"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="19">
+                        <coords count="1">
+                            <coord x="-191187" y="-28227"/>
+                        </coords>
+                    </object>
+                    <object type="4" symbol="54" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-191780" y="-49620"/>
+                        </coords>
+                        <text>Legend</text>
+                    </object>
+                    <object type="1" symbol="47">
+                        <coords count="7">
+                            <coord x="-192120" y="-40760" flags="1"/>
+                            <coord x="-191247" y="-41147"/>
+                            <coord x="-190567" y="-41380"/>
+                            <coord x="-189573" y="-41407" flags="1"/>
+                            <coord x="-188633" y="-41427"/>
+                            <coord x="-188500" y="-41607"/>
+                            <coord x="-187627" y="-41913"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="15">
+                        <coords count="1">
+                            <coord x="-188433" y="-31407"/>
+                        </coords>
+                    </object>
+                    <object type="4" symbol="55" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-186707" y="-46800"/>
+                        </coords>
+                        <text>Out of bounds
+Road
+Vehicle track, Path
+Indistinct track
+Fence with crossing point, Impassable Fence
+Impassable cliff
+Passable cliff
+Passable earth bank
+Boulders
+Boulder cluster, Bare rock
+Stony ground
+Contour, Index Contour
+Form line
+Small and Big Errosion Gully
+Depression, small depression
+Hill, Knoll, Pit
+Building
+Water tank, Water Feature
+Stream, Minor Stream
+Marsh, Seasonal Marsh
+Uncrossable Lake, Shallow Lake
+Open land
+Rough open land
+Rough land, semi-open
+Forest (white)
+Scrub, slow run
+Scrub, walk
+Scattered Bush in Open Land
+Forest slow run
+Directional Runability
+Forest walk
+Fight
+Distinct vegetation change
+Distinctive Tree, Root Stock</text>
+                    </object>
+                    <object type="0" symbol="1" rotation="1.5708">
+                        <coords count="1">
+                            <coord x="-189213" y="-25493"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="53">
+                        <coords count="5">
+                            <coord x="-187640" y="-46660"/>
+                            <coord x="-192080" y="-46660" flags="32"/>
+                            <coord x="-192080" y="-47907" flags="32"/>
+                            <coord x="-187673" y="-47907"/>
+                            <coord x="-187640" y="-46660" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="44">
+                        <coords count="2">
+                            <coord x="-192207" y="-45280"/>
+                            <coord x="-187633" y="-45280"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="44">
+                        <coords count="2">
+                            <coord x="-192207" y="-45280"/>
+                            <coord x="-187633" y="-45280"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="48">
+                        <coords count="2">
+                            <coord x="-192513" y="-38547"/>
+                            <coord x="-191233" y="-39300"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="11">
+                        <coords count="4">
+                            <coord x="-191967" y="-37513" flags="1"/>
+                            <coord x="-191320" y="-37107"/>
+                            <coord x="-190747" y="-36880"/>
+                            <coord x="-189853" y="-37400"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="5">
+                        <coords count="7">
+                            <coord x="-192113" y="-33867" flags="1"/>
+                            <coord x="-191387" y="-33520"/>
+                            <coord x="-190633" y="-33173"/>
+                            <coord x="-189853" y="-33280" flags="1"/>
+                            <coord x="-189093" y="-33380"/>
+                            <coord x="-188693" y="-33480"/>
+                            <coord x="-187980" y="-33800"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="1" rotation="4.22544">
+                        <coords count="1">
+                            <coord x="-191553" y="-20153"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="1" rotation="1.02102">
+                        <coords count="1">
+                            <coord x="-190260" y="-19447"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="51">
+                        <coords count="7">
+                            <coord x="-192207" y="-16380"/>
+                            <coord x="-189927" y="-16380" flags="32"/>
+                            <coord x="-189927" y="-15900" flags="32"/>
+                            <coord x="-188287" y="-15900" flags="32"/>
+                            <coord x="-188287" y="-15173" flags="32"/>
+                            <coord x="-192207" y="-15173" flags="32"/>
+                            <coord x="-192207" y="-16380" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192453" y="-4653"/>
+                            <coord x="-187833" y="-4653" flags="32"/>
+                            <coord x="-187833" y="-3233" flags="32"/>
+                            <coord x="-192453" y="-3233" flags="32"/>
+                            <coord x="-192453" y="-4653" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192460" y="-2753"/>
+                            <coord x="-187840" y="-2753" flags="32"/>
+                            <coord x="-187840" y="-1333" flags="32"/>
+                            <coord x="-192460" y="-1333" flags="32"/>
+                            <coord x="-192460" y="-2753" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192460" y="-567"/>
+                            <coord x="-187840" y="-567" flags="32"/>
+                            <coord x="-187840" y="853" flags="32"/>
+                            <coord x="-192460" y="853" flags="32"/>
+                            <coord x="-192460" y="-567" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192467" y="1333"/>
+                            <coord x="-187847" y="1333" flags="32"/>
+                            <coord x="-187847" y="2753" flags="32"/>
+                            <coord x="-192467" y="2753" flags="32"/>
+                            <coord x="-192467" y="1333" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192447" y="3247"/>
+                            <coord x="-187827" y="3247" flags="32"/>
+                            <coord x="-187827" y="4667" flags="32"/>
+                            <coord x="-192447" y="4667" flags="32"/>
+                            <coord x="-192447" y="3247" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192453" y="7133"/>
+                            <coord x="-187833" y="7133" flags="32"/>
+                            <coord x="-187833" y="8553" flags="32"/>
+                            <coord x="-192453" y="8553" flags="32"/>
+                            <coord x="-192453" y="7133" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192487" y="11347"/>
+                            <coord x="-187867" y="11347" flags="32"/>
+                            <coord x="-187867" y="12767" flags="32"/>
+                            <coord x="-192487" y="12767" flags="32"/>
+                            <coord x="-192487" y="11347" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192493" y="13247"/>
+                            <coord x="-187873" y="13247" flags="32"/>
+                            <coord x="-187873" y="14667" flags="32"/>
+                            <coord x="-192493" y="14667" flags="32"/>
+                            <coord x="-192493" y="13247" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="33">
+                        <coords count="5">
+                            <coord x="-192453" y="-4653"/>
+                            <coord x="-187833" y="-4653" flags="32"/>
+                            <coord x="-187833" y="-3233" flags="32"/>
+                            <coord x="-192453" y="-3233" flags="32"/>
+                            <coord x="-192453" y="-4653" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="34">
+                        <coords count="5">
+                            <coord x="-192460" y="-2753"/>
+                            <coord x="-187840" y="-2753" flags="32"/>
+                            <coord x="-187840" y="-1333" flags="32"/>
+                            <coord x="-192460" y="-1333" flags="32"/>
+                            <coord x="-192460" y="-2753" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="37">
+                        <coords count="5">
+                            <coord x="-192467" y="1333"/>
+                            <coord x="-187847" y="1333" flags="32"/>
+                            <coord x="-187847" y="2753" flags="32"/>
+                            <coord x="-192467" y="2753" flags="32"/>
+                            <coord x="-192467" y="1333" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="39">
+                        <coords count="5">
+                            <coord x="-192447" y="3247"/>
+                            <coord x="-187827" y="3247" flags="32"/>
+                            <coord x="-187827" y="4667" flags="32"/>
+                            <coord x="-192447" y="4667" flags="32"/>
+                            <coord x="-192447" y="3247" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="35">
+                        <coords count="5">
+                            <coord x="-192453" y="7133"/>
+                            <coord x="-187833" y="7133" flags="32"/>
+                            <coord x="-187833" y="8553" flags="32"/>
+                            <coord x="-192453" y="8553" flags="32"/>
+                            <coord x="-192453" y="7133" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="38">
+                        <coords count="5">
+                            <coord x="-192487" y="11347"/>
+                            <coord x="-187867" y="11347" flags="32"/>
+                            <coord x="-187867" y="12767" flags="32"/>
+                            <coord x="-192487" y="12767" flags="32"/>
+                            <coord x="-192487" y="11347" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="40">
+                        <coords count="5">
+                            <coord x="-192493" y="13247"/>
+                            <coord x="-187873" y="13247" flags="32"/>
+                            <coord x="-187873" y="14667" flags="32"/>
+                            <coord x="-192493" y="14667" flags="32"/>
+                            <coord x="-192493" y="13247" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="33">
+                        <coords count="5">
+                            <coord x="-190200" y="1340"/>
+                            <coord x="-187900" y="1340" flags="32"/>
+                            <coord x="-187900" y="2720" flags="32"/>
+                            <coord x="-190200" y="2720" flags="32"/>
+                            <coord x="-190200" y="1340" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="33">
+                        <coords count="5">
+                            <coord x="-190107" y="3260"/>
+                            <coord x="-187853" y="3260" flags="32"/>
+                            <coord x="-187853" y="4680" flags="32"/>
+                            <coord x="-190107" y="4680" flags="32"/>
+                            <coord x="-190107" y="3260" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="31">
+                        <coords count="5">
+                            <coord x="-192447" y="-6493"/>
+                            <coord x="-187827" y="-6493" flags="32"/>
+                            <coord x="-187827" y="-5073" flags="32"/>
+                            <coord x="-192447" y="-5073" flags="32"/>
+                            <coord x="-192447" y="-6493" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192447" y="-6467"/>
+                            <coord x="-187827" y="-6467" flags="32"/>
+                            <coord x="-187827" y="-5047" flags="32"/>
+                            <coord x="-192447" y="-5047" flags="32"/>
+                            <coord x="-192447" y="-6467" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="41">
+                        <coords count="5">
+                            <coord x="-192560" y="15100"/>
+                            <coord x="-187940" y="15100" flags="32"/>
+                            <coord x="-187940" y="16520" flags="32"/>
+                            <coord x="-192560" y="16520" flags="32"/>
+                            <coord x="-192560" y="15100" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="12">
+                        <coords count="4">
+                            <coord x="-189313" y="-37473" flags="1"/>
+                            <coord x="-188867" y="-36807"/>
+                            <coord x="-188147" y="-36973"/>
+                            <coord x="-187747" y="-37453"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="13">
+                        <coords count="4">
+                            <coord x="-192060" y="-35787" flags="1"/>
+                            <coord x="-191413" y="-35380"/>
+                            <coord x="-190840" y="-35153"/>
+                            <coord x="-189947" y="-35673"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="14">
+                        <coords count="4">
+                            <coord x="-189407" y="-35747" flags="1"/>
+                            <coord x="-188960" y="-35080"/>
+                            <coord x="-188240" y="-35247"/>
+                            <coord x="-187840" y="-35727"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="49">
+                        <coords count="2">
+                            <coord x="-190313" y="-38287"/>
+                            <coord x="-187627" y="-40000"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="10">
+                        <coords count="1">
+                            <coord x="-188933" y="-17900"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="4" rotation="1.80118">
+                        <coords count="1">
+                            <coord x="-188860" y="-23840"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="50" rotation="3.67217">
+                        <coords count="1">
+                            <coord x="-191000" y="-39440"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="48">
+                        <coords count="2">
+                            <coord x="-190720" y="-39627"/>
+                            <coord x="-189440" y="-40380"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="20">
+                        <coords count="13">
+                            <coord x="-189567" y="-30193" flags="1"/>
+                            <coord x="-189713" y="-30040"/>
+                            <coord x="-189633" y="-29740"/>
+                            <coord x="-189400" y="-29513" flags="1"/>
+                            <coord x="-189167" y="-29287"/>
+                            <coord x="-188860" y="-29213"/>
+                            <coord x="-188720" y="-29360" flags="33"/>
+                            <coord x="-188573" y="-29513"/>
+                            <coord x="-188653" y="-29813"/>
+                            <coord x="-188887" y="-30040" flags="1"/>
+                            <coord x="-189120" y="-30267"/>
+                            <coord x="-189427" y="-30340"/>
+                            <coord x="-189567" y="-30193" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="30">
+                        <coords count="1">
+                            <coord x="-189100" y="-13780"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="28">
+                        <coords count="13">
+                            <coord x="-189773" y="-9780" flags="1"/>
+                            <coord x="-189773" y="-9367"/>
+                            <coord x="-189680" y="-9080"/>
+                            <coord x="-188787" y="-9067" flags="1"/>
+                            <coord x="-187887" y="-9053"/>
+                            <coord x="-187447" y="-9213"/>
+                            <coord x="-187447" y="-9627" flags="33"/>
+                            <coord x="-187447" y="-10047"/>
+                            <coord x="-187513" y="-10587"/>
+                            <coord x="-188640" y="-10613" flags="1"/>
+                            <coord x="-189540" y="-10633"/>
+                            <coord x="-189773" y="-10200"/>
+                            <coord x="-189773" y="-9780" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="22">
+                        <coords count="13">
+                            <coord x="-192620" y="-7793" flags="1"/>
+                            <coord x="-192620" y="-7380"/>
+                            <coord x="-192527" y="-7093"/>
+                            <coord x="-191633" y="-7080" flags="1"/>
+                            <coord x="-190733" y="-7067"/>
+                            <coord x="-190293" y="-7227"/>
+                            <coord x="-190293" y="-7640" flags="33"/>
+                            <coord x="-190293" y="-8060"/>
+                            <coord x="-190360" y="-8600"/>
+                            <coord x="-191487" y="-8627" flags="1"/>
+                            <coord x="-192387" y="-8647"/>
+                            <coord x="-192620" y="-8213"/>
+                            <coord x="-192620" y="-7793" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="23">
+                        <coords count="13">
+                            <coord x="-189793" y="-7840" flags="1"/>
+                            <coord x="-189793" y="-7427"/>
+                            <coord x="-189700" y="-7140"/>
+                            <coord x="-188807" y="-7127" flags="1"/>
+                            <coord x="-187907" y="-7113"/>
+                            <coord x="-187467" y="-7273"/>
+                            <coord x="-187467" y="-7687" flags="33"/>
+                            <coord x="-187467" y="-8107"/>
+                            <coord x="-187533" y="-8647"/>
+                            <coord x="-188660" y="-8673" flags="1"/>
+                            <coord x="-189560" y="-8693"/>
+                            <coord x="-189793" y="-8260"/>
+                            <coord x="-189793" y="-7840" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="26">
+                        <coords count="10">
+                            <coord x="-189800" y="-12820" flags="1"/>
+                            <coord x="-189727" y="-12333"/>
+                            <coord x="-189633" y="-11627"/>
+                            <coord x="-189313" y="-11573" flags="1"/>
+                            <coord x="-188767" y="-11520"/>
+                            <coord x="-189000" y="-12920"/>
+                            <coord x="-188493" y="-12833" flags="1"/>
+                            <coord x="-188100" y="-12747"/>
+                            <coord x="-188300" y="-11627"/>
+                            <coord x="-187927" y="-11527"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="42">
+                        <coords count="1">
+                            <coord x="-191440" y="17827"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="43">
+                        <coords count="1">
+                            <coord x="-189207" y="17747"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="7">
+                        <coords count="7">
+                            <coord x="-192160" y="-21153" flags="1"/>
+                            <coord x="-191960" y="-21467"/>
+                            <coord x="-191813" y="-22087"/>
+                            <coord x="-191633" y="-22047" flags="1"/>
+                            <coord x="-191287" y="-21893"/>
+                            <coord x="-191107" y="-20913"/>
+                            <coord x="-190313" y="-22393"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="6">
+                        <coords count="7">
+                            <coord x="-189640" y="-21087" flags="1"/>
+                            <coord x="-189440" y="-21400"/>
+                            <coord x="-189293" y="-22020"/>
+                            <coord x="-189113" y="-21980" flags="1"/>
+                            <coord x="-188767" y="-21827"/>
+                            <coord x="-188587" y="-20847"/>
+                            <coord x="-187793" y="-22327"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192393" y="9120"/>
+                            <coord x="-187773" y="9120" flags="32"/>
+                            <coord x="-187773" y="10540" flags="32"/>
+                            <coord x="-192393" y="10540" flags="32"/>
+                            <coord x="-192393" y="9120" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="36">
+                        <coords count="5">
+                            <coord x="-192393" y="9120"/>
+                            <coord x="-187773" y="9120" flags="32"/>
+                            <coord x="-187773" y="10540" flags="32"/>
+                            <coord x="-192393" y="10540" flags="32"/>
+                            <coord x="-192393" y="9120" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="52">
+                        <coords count="5">
+                            <coord x="-192487" y="5020"/>
+                            <coord x="-187867" y="5020" flags="32"/>
+                            <coord x="-187867" y="6440" flags="32"/>
+                            <coord x="-192487" y="6440" flags="32"/>
+                            <coord x="-192487" y="5020" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="32">
+                        <coords count="5">
+                            <coord x="-192487" y="5020"/>
+                            <coord x="-187867" y="5020" flags="32"/>
+                            <coord x="-187867" y="6440" flags="32"/>
+                            <coord x="-192487" y="6440" flags="32"/>
+                            <coord x="-192487" y="5020" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </objects>
+            </part>
+        </parts>
+        <templates count="9" first_front_template="9">
+            <template type="TemplateImage" open="true" name="AcheronTopo.jpg" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/BasemapMaterial/lds-nz-mainland-contours-topo-150k-SHP/AcheronTopo.jpg" relpath="AcheronTopo.jpg">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="44993" y="10440" scale_x="0.145671" scale_y="0.145643" rotation="0.410152"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="6.29541"/>
+                        <element value="-2.73732"/>
+                        <element value="-254.672"/>
+                        <element value="2.73785"/>
+                        <element value="6.29663"/>
+                        <element value="-188.921"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.133589"/>
+                        <element value="0.058075"/>
+                        <element value="44.993"/>
+                        <element value="-0.0580862"/>
+                        <element value="0.133563"/>
+                        <element value="10.44"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Top-1.bmp" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Top-1.bmp" relpath="Top-1.bmp">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="38120" y="16560" scale_x="0.0847964" scale_y="0.0844853" rotation="0.012016"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="11.7921"/>
+                        <element value="-0.1417"/>
+                        <element value="-447.168"/>
+                        <element value="0.142222"/>
+                        <element value="11.8355"/>
+                        <element value="-201.418"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0847903"/>
+                        <element value="0.00101515"/>
+                        <element value="38.12"/>
+                        <element value="-0.00101889"/>
+                        <element value="0.0844792"/>
+                        <element value="16.56"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Top-4.jpg" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Top-4.jpg" relpath="Top-4.jpg">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="21747" y="36013" scale_x="0.0846667" scale_y="0.0846667" rotation="3.14159"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="-11.811"/>
+                        <element value="-1.44643e-15"/>
+                        <element value="256.854"/>
+                        <element value="1.44643e-15"/>
+                        <element value="-11.811"/>
+                        <element value="425.35"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="-0.0846667"/>
+                        <element value="1.03687e-17"/>
+                        <element value="21.747"/>
+                        <element value="-1.03687e-17"/>
+                        <element value="-0.0846667"/>
+                        <element value="36.013"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Mt Barker-1.jpg" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/BasemapMaterial/Mt Barker-1.jpg" relpath="Mt Barker-1.jpg">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="15707" y="11900" scale_x="0.0282998" scale_y="0.0283197" rotation="0.407703"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="32.4396"/>
+                        <element value="-14.0108"/>
+                        <element value="-342.801"/>
+                        <element value="14.0009"/>
+                        <element value="32.4168"/>
+                        <element value="-605.672"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0259801"/>
+                        <element value="0.0112288"/>
+                        <element value="15.707"/>
+                        <element value="-0.0112209"/>
+                        <element value="0.0259985"/>
+                        <element value="11.9"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Top-3.jpg" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Top-3.jpg" relpath="Top-3.jpg">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="37367" y="-13567" scale_x="0.0854806" scale_y="0.0854806" rotation="0.0270242"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="11.6943"/>
+                        <element value="-0.316106"/>
+                        <element value="-441.269"/>
+                        <element value="0.316106"/>
+                        <element value="11.6943"/>
+                        <element value="146.844"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0854494"/>
+                        <element value="0.00230977"/>
+                        <element value="37.367"/>
+                        <element value="-0.00230977"/>
+                        <element value="0.0854494"/>
+                        <element value="-13.567"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Top-2.bmp" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Top-2.bmp" relpath="Top-2.bmp">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="80740" y="65060" scale_x="0.0840566" scale_y="0.0840566" rotation="3.16195"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="-11.8943"/>
+                        <element value="0.242213"/>
+                        <element value="944.586"/>
+                        <element value="-0.242213"/>
+                        <element value="-11.8943"/>
+                        <element value="793.399"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="-0.0840391"/>
+                        <element value="-0.00171136"/>
+                        <element value="80.74"/>
+                        <element value="0.00171136"/>
+                        <element value="-0.0840391"/>
+                        <element value="65.06"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Scan.BMP" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Scan.BMP" relpath="Scan.BMP">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="91507" y="13973" scale_x="0.0849958" scale_y="0.0844269" rotation="-0.00199542"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="11.7653"/>
+                        <element value="0.0234766"/>
+                        <element value="-1076.93"/>
+                        <element value="-0.0236349"/>
+                        <element value="11.8445"/>
+                        <element value="-163.341"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0849956"/>
+                        <element value="-0.000168467"/>
+                        <element value="91.507"/>
+                        <element value="0.000169602"/>
+                        <element value="0.0844267"/>
+                        <element value="13.973"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Top.bmp" path="C:/Users/Carsten/Documents/My Dropbox/MyMaps/Acheron/Fieldwork/Top.bmp" relpath="Top.bmp">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="86873" y="34693" scale_x="0.0846855" scale_y="0.0846855" rotation="3.14848"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="-11.8081"/>
+                        <element value="0.0812906"/>
+                        <element value="1022.99"/>
+                        <element value="-0.0812906"/>
+                        <element value="-11.8081"/>
+                        <element value="416.721"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="-0.0846835"/>
+                        <element value="-0.000582986"/>
+                        <element value="86.873"/>
+                        <element value="0.000582986"/>
+                        <element value="-0.0846835"/>
+                        <element value="34.693"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <template type="TemplateImage" open="true" name="Acheron.jpg" path="Acheron.jpg" relpath="Acheron.jpg">
+                <transformations adjustment_dirty="true" passpoints="0">
+                    <transformation role="active" x="24313" y="16880" scale_x="0.0423334" scale_y="0.0423315" rotation="0.410152"/>
+                    <transformation role="other" x="0" y="0" scale_x="1" scale_y="1" rotation="0"/>
+                    <matrix role="map_to_template" n="3" m="3">
+                        <element value="21.6628"/>
+                        <element value="-9.41925"/>
+                        <element value="-367.691"/>
+                        <element value="9.41967"/>
+                        <element value="21.6638"/>
+                        <element value="-594.705"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map" n="3" m="3">
+                        <element value="0.0388223"/>
+                        <element value="0.0168797"/>
+                        <element value="24.313"/>
+                        <element value="-0.0168804"/>
+                        <element value="0.0388206"/>
+                        <element value="16.88"/>
+                        <element value="0"/>
+                        <element value="0"/>
+                        <element value="1"/>
+                    </matrix>
+                    <matrix role="template_to_map_other" n="0" m="0"/>
+                </transformations>
+            </template>
+            <defaults use_meters_per_pixel="true" meters_per_pixel="0" dpi="0" scale="0"/>
+        </templates>
+        <view>
+            <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
+            <map_view zoom="0.4727" position_x="-233721" position_y="-61256">
+                <map opacity="1" visible="true"/>
+                <templates count="9">
+                    <ref template="8" opacity="1"/>
+                    <ref template="7" opacity="1"/>
+                    <ref template="6" opacity="1"/>
+                    <ref template="5" opacity="1"/>
+                    <ref template="4" opacity="1"/>
+                    <ref template="3" opacity="1"/>
+                    <ref template="2" opacity="1"/>
+                    <ref template="1" opacity="1"/>
+                    <ref template="0" opacity="1"/>
+                </templates>
+            </map_view>
+        </view>
+        <print scale="15000" resolution="600" mode="raster">
+            <page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5">
+                <dimensions width="210" height="297"/>
+                <page_rect left="4.23" top="4.23" width="201.54" height="288.54"/>
+            </page_format>
+            <print_area left="-193.784" top="-53.483" width="44.179" height="73.656"/>
+        </print>
+    </barrier>
+</map>

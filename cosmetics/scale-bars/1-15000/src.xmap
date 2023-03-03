@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://openorienteering.org/apps/mapper/xml/v2" version="9">
+    <notes></notes>
+    <georeferencing scale="15000" declination="23.5" grivation="23.5">
+        <projected_crs id="Local">
+            <ref_point x="1569000" y="5180388"/>
+        </projected_crs>
+    </georeferencing>
+    <colors count="5">
+        <color priority="0" name="Blue for black" c="0.87" m="0.185" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.13" g="0.815" b="1"/>
+        </color>
+        <color priority="1" name="Black" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+        <color priority="2" name="Logo Text Red" c="0.23" m="0.96" y="1" k="0.17" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0.639" g="0.033" b="0"/>
+        </color>
+        <color priority="3" name="White for yellow" c="0" m="0" y="0" k="0" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="1" g="1" b="1"/>
+        </color>
+        <color priority="4" name="Black" c="0" m="0" y="0" k="1" opacity="1">
+            <cmyk method="custom"/>
+            <rgb method="cmyk" r="0" g="0" b="0"/>
+        </color>
+    </colors>
+    <barrier version="6" required="0.6.0">
+        <symbols count="5" id="OCD">
+            <symbol type="16" id="0" code="999.0" name="Scale bar 7.500">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="2" code="999.0" name="Scale bar 7.500 - main line">
+                            <line_symbol color="0" line_width="1800" minimum_length="0" join_style="0" cap_style="0" start_offset="200" end_offset="200" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="6600" break_length="200" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                    <part private="true">
+                        <symbol type="2" code="999.0" name="Scale bar 7.500 - double line">
+                            <line_symbol color="1" line_width="2200" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                                <borders>
+                                    <border color="-1" width="0" shift="0"/>
+                                </borders>
+                            </line_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="16" id="1" code="999.0" name="Scale bar 7.500">
+                <combined_symbol parts="2">
+                    <part private="true">
+                        <symbol type="2" code="999.0" name="Scale bar 7.500 - main line">
+                            <line_symbol color="2" line_width="1800" minimum_length="0" join_style="0" cap_style="0" start_offset="200" end_offset="200" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="6600" break_length="200" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                    <part private="true">
+                        <symbol type="2" code="999.0" name="Scale bar 7.500 - double line">
+                            <line_symbol color="3" line_width="1867" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+                        </symbol>
+                    </part>
+                </combined_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVQ4jWP8////fwYaACZaGDpq8KjB2AEjAwMDTdIxC43MHYJhPGowHNAuudGoOB6CYTxqMBwAABkhCiR60qyjAAAAAElFTkSuQmCC"/>
+            </symbol>
+            <symbol type="8" id="2" code="904.1" name="Legend text">
+                <text_symbol icon_text="">
+                    <font family="Arial" size="1411"/>
+                    <text color="1" line_spacing="1.6958" paragraph_spacing="0" character_spacing="0"/>
+                </text_symbol>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAVUlEQVQ4jWP8////fwYaACZaGDpqMApggTEYGRmJ1kRMfMMNxqaYkZGRKEOwgaEXxiPEYGJS0OBy8ajBJAEWfJL4sjO2lIGsHq/B5FgIA0MvjGlmMADdrRYqpeXCpQAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="2" id="3" code="503.0" name="Road">
+                <line_symbol color="4" line_width="347" minimum_length="0" join_style="0" cap_style="0" start_offset="0" end_offset="0" segment_length="0" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2667" break_length="667" dashes_in_group="1" in_group_break_length="333" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAANElEQVQ4je3UwQkAMBACwb2Q/ls2VXgQWAuYh6CTJBRyGqiw8DI8gAMB4Jau4sMqhIUX4Qf+hQglguD36AAAAABJRU5ErkJggg=="/>
+            </symbol>
+            <symbol type="4" id="4" code="521.0" name="Building">
+                <area_symbol inner_color="4" min_area="0" patterns="0"/>
+<icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQ4jWP8////fwYaACZaGDpqMH0MZkEXYGRkJMsg9MQ19IJi1OBRg+loMEbOo1bxPPSCYtRgOAAACl8KKXVlOGoAAAAASUVORK5CYII="/>
+            </symbol>
+        </symbols>
+        <parts count="1" current="0">
+            <part name="default part">
+                <objects count="17">
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20174" y="5355"/>
+                        </coords>
+                        <text>0            100            200           300 metres       </text>
+                    </object>
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20183" y="-2799"/>
+                        </coords>
+                        <text>0	  100           200           300          400 metres</text>
+                    </object>
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20229" y="13488"/>
+                        </coords>
+                        <text>0	  100           200           300          400 metres</text>
+                    </object>
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20220" y="21642"/>
+                        </coords>
+                        <text>0            100            200           300 metres       </text>
+                    </object>
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20187" y="-10463"/>
+                        </coords>
+                        <text>0            100            200            300           400 metres</text>
+                    </object>
+                    <object type="4" symbol="2" h_align="0" v_align="0">
+                        <coords count="1">
+                            <coord x="-20164" y="-17580"/>
+                        </coords>
+                        <text>0            100            200            300           400            500 metres</text>
+                    </object>
+                    <object type="1" symbol="1">
+                        <coords count="2">
+                            <coord x="-20020" y="18852"/>
+                            <coord x="310" y="18852"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="4">
+                        <coords count="6">
+                            <coord x="-19760" y="-14343"/>
+                            <coord x="-12973" y="-14357" flags="32"/>
+                            <coord x="-12967" y="-12677" flags="32"/>
+                            <coord x="-19687" y="-12597" flags="32"/>
+                            <coord x="-19720" y="-14363"/>
+                            <coord x="-19760" y="-14343" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="3">
+                        <coords count="5">
+                            <coord x="-19644" y="-21487"/>
+                            <coord x="13663" y="-21454" flags="32"/>
+                            <coord x="13663" y="-19747" flags="32"/>
+                            <coord x="-19617" y="-19747" flags="32"/>
+                            <coord x="-19617" y="-21501"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="2">
+                            <coord x="-19974" y="2565"/>
+                            <coord x="356" y="2565"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="4">
+                        <coords count="5">
+                            <coord x="6996" y="-21320"/>
+                            <coord x="13610" y="-21320" flags="32"/>
+                            <coord x="13610" y="-19720" flags="32"/>
+                            <coord x="6996" y="-19720" flags="32"/>
+                            <coord x="6996" y="-21320" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="1">
+                        <coords count="2">
+                            <coord x="-19929" y="10928"/>
+                            <coord x="6791" y="10928"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="0">
+                        <coords count="2">
+                            <coord x="-19883" y="-5359"/>
+                            <coord x="6837" y="-5359"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="4">
+                        <coords count="6">
+                            <coord x="-19737" y="-21460"/>
+                            <coord x="-12950" y="-21474" flags="32"/>
+                            <coord x="-12944" y="-19794" flags="32"/>
+                            <coord x="-19664" y="-19714" flags="32"/>
+                            <coord x="-19697" y="-21480"/>
+                            <coord x="-19737" y="-21460" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="3">
+                        <coords count="5">
+                            <coord x="-19667" y="-14370"/>
+                            <coord x="6970" y="-14337" flags="32"/>
+                            <coord x="6970" y="-12630" flags="32"/>
+                            <coord x="-19640" y="-12630" flags="32"/>
+                            <coord x="-19640" y="-14384"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="4">
+                        <coords count="5">
+                            <coord x="-6200" y="-14203"/>
+                            <coord x="413" y="-14203" flags="32"/>
+                            <coord x="413" y="-12550" flags="32"/>
+                            <coord x="-6200" y="-12550" flags="32"/>
+                            <coord x="-6200" y="-14203" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="4">
+                        <coords count="5">
+                            <coord x="-6177" y="-21320"/>
+                            <coord x="436" y="-21320" flags="32"/>
+                            <coord x="436" y="-19667" flags="32"/>
+                            <coord x="-6177" y="-19667" flags="32"/>
+                            <coord x="-6177" y="-21320" flags="2"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </objects>
+            </part>
+        </parts>
+        <templates count="0" first_front_template="0">
+            <defaults use_meters_per_pixel="true" meters_per_pixel="0" dpi="0" scale="0"/>
+        </templates>
+        <view>
+            <grid color="#80646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
+            <map_view zoom="1.20269" position_x="1843" position_y="13098">
+                <map opacity="1" visible="true"/>
+                <templates hidden="true" count="0"/>
+            </map_view>
+        </view>
+        <print scale="4000" resolution="600" mode="raster">
+            <page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5">
+                <dimensions width="210" height="297"/>
+                <page_rect left="4.23" top="4.23" width="201.54" height="288.54"/>
+            </page_format>
+            <print_area left="-21.025" top="16.903" width="27.804" height="5.743"/>
+        </print>
+    </barrier>
+</map>
